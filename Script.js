@@ -17,7 +17,7 @@ function checkPunctuation(dato) {
 
 function checkYear(dato) {
     const year = dato.substring(6);
-    return year.length === 4 && year >= '0000' && year <= '9999';
+    return year.length === 4 && year >= 0000 && year <= 9999;
 } 
 
 function checkMonth(dato) {
